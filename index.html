@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Crystal Collector</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="rules">
+            <p>You will be given a random number at the start of the game.</p>
+            <br>
+            <p>There are four crystals. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it</p>
+            <br>
+            <p>Each time when the game starts, the game will change the values of each crystal</p>
+            <p>Good Luck!!</p>
+        </div>
+        <div class="game">
+            <div class="current">
+                <h2>Current Total</h2>
+                <br>
+                <span id="number"></span>
+            </div>
+            <div class="crystals">
+                <a href="#"><img src="assets/images/crystal2.jpg" class="crystal1"></a>
+                <a href="#"><img src="assets/images/crystal3.jpg" class="crystal2"></a>
+                <a href="#"><img src="assets/images/crystal4.jpg" class="crystal3"></a>
+                <a href="#"><img src="assets/images/crystal5.jpg" class="crystal4"></a>
+            </div>
+        </div>
+        <div class="score">
+            <p>Wins</p>
+            <span id="wins">0</span>
+            <br>
+            <p>Losses</p>
+            <span id="losses">0</span>
+            <br>
+            <p>Random Number</p>
+            <span id="random">-</span>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
