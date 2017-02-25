@@ -9,11 +9,11 @@ body {
 
 .header {
     width: 960px;
-    padding: 15px;
+    padding: 30px;
     text-align: center;
     border-bottom: solid .1em cornflowerblue;
     background-image: url('../images/background.jpg');
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 h1 {
